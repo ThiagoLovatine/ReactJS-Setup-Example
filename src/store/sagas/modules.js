@@ -6,8 +6,7 @@ import {Creators as ModulesActions} from '../ducks/modules';
 
 export function* load(action) {
     try {
-        const data = {id: 1, text: 'Hello'};
-
+      
         // Get data from API
         //const { moduleId } = action.payload;
 
@@ -17,7 +16,7 @@ export function* load(action) {
             // Process the response
         } */
 
-        yield put(ModulesActions.addModule(data));
+        //yield put(ModulesActions.addModule(data));
     } catch(err) {
         yield put(ModulesActions.loadFailure());
     }
