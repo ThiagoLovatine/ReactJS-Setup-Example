@@ -4,9 +4,23 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { Creators as ModuleActions } from "../../store/ducks/modules";
 
-class Sidebar extends Component {
+interface StateProps {
 
-  handleSubmit = e => {
+}
+
+interface DispatchProps {
+
+}
+
+interface OwnProps {
+
+}
+
+type Props = StateProps & DispatchProps & OwnProps;
+
+class Sidebar extends Component<Props> {
+
+  handleSubmit = (e: any) => {
     e.preventDefault();
 
     this.props.addModule(this.input.value);

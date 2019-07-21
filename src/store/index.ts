@@ -4,7 +4,11 @@ import Reactotron from 'reactotron-react-js'
 
 import reducers from './ducks';
 import sagas from './sagas';
-console.tron = Reactotron;
+
+interface Console {
+  tron: any
+}
+let console : Console = {tron: Reactotron};
 
 const middlewares = [];
 
