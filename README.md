@@ -1,3 +1,3 @@
-##ReactJS, Redux, Redux Saga, Reactotron, Middlewares, TypeScript, Eslint
+## ReactJS, Redux, Redux Saga, Reactotron, Middlewares, TypeScript, Eslint
 
 
