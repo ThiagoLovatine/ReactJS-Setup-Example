@@ -1,3 +1,7 @@
+ReactJS, Redux, Redux Saga, Reactotron, Middlewares, TypeScript, Eslint
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
